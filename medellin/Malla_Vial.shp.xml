@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Fabrica de Mapas</origin>
+				<title Sync="TRUE">Medellin_areamet_malla_vial</title>
+				<edition>I</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>Por definir</sername>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Medellin - Colombia</pubplace>
+					<publish>Fabrica de Mapas</publish>
+				</pubinfo>
+				<onlink Sync="TRUE">\\ATREJOS\Medellin\Ciudad_Medellin.mdb</onlink>
+				<pubdate>REQUIRED: The date when the data set is published or otherwise made available for release.</pubdate><ftname Sync="TRUE">Medellin_areamet_malla_vial</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Malla Vial de Medellín y el área metropolitana, con una estructura de datos que permiten geocodificar direcciones con ArcView y con MapInfo.
+Hace parte del Catalogo de Productos ofrecidos por la Fabrica de Mapas.</abstract>
+			<purpose>Geocodificación de direcciones y planes de rutas.</purpose>
+			<langdata Sync="TRUE">es</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate><caldate>2001</caldate></sngdate>
+			</timeinfo>
+			<current>en proceso de actualizacion</current>
+		</timeperd>
+		<status>
+			<progress>Completo</progress>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">284.332959</westbc>
+				<eastbc Sync="TRUE">284.672305</eastbc>
+				<northbc Sync="TRUE">6.449081</northbc>
+				<southbc Sync="TRUE">6.078008</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">824514.050024</leftbc><rightbc Sync="TRUE">861968.373687</rightbc><bottombc Sync="TRUE">1163808.180015</bottombc><topbc Sync="TRUE">1204756.448797</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.  REQUIRED.</themekt>
+				<themekey>malla vial</themekey>
+				<themekey>geocodificacion</themekey>
+				<themekey>vias secundarias</themekey>
+				<themekey>vias principales</themekey>
+				<themekey>rutas</themekey>
+			</theme>
+			<place>
+				<placekey>Colombia</placekey>
+				<placekey>South America</placekey>
+				<placekey>Sur America</placekey>
+			</place>
+		</keywords>
+		<accconst>Sujetos a las condiciones de venta.</accconst>
+		<useconst>
+El usuario de esta informacion se compromete a no distribuir de ninguna manera su contenido sin el previo consentimiento del vendedor.
+El uso es exclusivo para consulta del compardor, las modificaciones hechas al producto no corren bajo la responsabilidad de la FdeM ni los vendedores de la informacion.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>PROCALCULO PROSIS S.A.</cntorg>
+					<cntper>Alvaro Navarro</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>Cl 16 41 210 of 803</address>
+					<city>Medellin</city>
+					<state>Antioquia</state>
+					<country>Colombia</country>
+				</cntaddr>
+				<cntvoice>57 4 2666657</cntvoice>
+				<cntfax>57 4 2666657</cntfax>
+				<cntemail>anavarro@prosis.com</cntemail>
+				<hours>8:30 am - 6:00 pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+PROCALCULO PROSIS S.A.
+Medellín, Colombia
+</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 8.3.0.800</native>
+		<natvform Sync="TRUE">Personal GeoDatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<logic>Los objetos presentes tienen la topologia de lineas definida por las especificaciones del producto.</logic>
+		<posacc>
+			<horizpa>
+				<horizpar>Las especificaciones del producto no lo exigen .</horizpar>
+				<qhorizpa>
+					<horizpav>no se lleva a cabo este tipo de verificacion</horizpav>
+				</qhorizpa>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Las especificaciones del producto no lo exigen .</vertaccr>
+				<qvertpa>
+					<vertaccv>no se lleva a cabo este tipo de verificacion</vertaccv>
+				</qvertpa>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>DANE</origin>
+						<pubdate>1993</pubdate>
+						<title>Salida Grafica</title>
+					</citeinfo>
+				</srccite>
+				<srcscale>1:5000</srcscale>
+				<typesrc>Digital</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1993</caldate>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>DANE</srccitea>
+				<srccontr>Salidas Graficas</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Revision de cada arco de la Malla Vial segun la informacion levantada en campo .</procdesc>
+				<srcused>DANE</srcused>
+				<srcprod>FdeM</srcprod>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\TEMP\xml12.tmp</srcused><date Sync="TRUE">20040517</date><time Sync="TRUE">14141300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\ATREJOS\D\GEODATABASE_PROSIS\Fabrica de mapas.mdb</srcused><date Sync="TRUE">20041227</date><time Sync="TRUE">16470200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\ATREJOS\FABRICA_DE_MAPAS\Infor_wgs84\Malla_Vial.mdb</srcused><date Sync="TRUE">20041228</date><time Sync="TRUE">08345900</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Malla_Vial"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">3</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.001164</absres>
+						<ordres Sync="TRUE">0.001164</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_Bogota</horizdn>
+				<ellips Sync="TRUE">International_1924</ellips>
+				<semiaxis Sync="TRUE">6378388.000000</semiaxis>
+				<denflat Sync="TRUE">297.000000</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_Bogota</geogcsn><projcsn Sync="TRUE">Colombia_Bogota_Zone</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000010</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Malla_Vial">
+			<enttyp>
+				<enttypl Sync="TRUE">Malla_Vial</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef>Geometría del elemento.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TIPO_VIA</attrlabl>
+				<attalias Sync="TRUE">TIPO_VIA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Clasificación del tipo de vía de acuerdo a la nomenclatura de la vía principal.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME</attrlabl>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Nomenclatura del cruce de la vía, separado por un "-".</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">NOMB_COMUN</attrlabl>
+				<attalias Sync="TRUE">NOMB_COMUN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Nomenclatura alfabética de la vía principal.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MUNICIPIO</attrlabl>
+				<attalias Sync="TRUE">MUNICIPIO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Municipio al que pertence el arco de la malla vial.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PREFIJO</attrlabl>
+				<attalias Sync="TRUE">PREFIJO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs>Orientación de la nomenclatura.</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FROMLEFT</attrlabl>
+				<attalias Sync="TRUE">FROMLEFT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Número de la placa domiciliaria inicial a la izquierda del sentido de la digitalización del arco.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TOLEFT</attrlabl>
+				<attalias Sync="TRUE">TOLEFT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale><attrdefs>Número de la placa domiciliaria final a la izquierda del sentido de la digitalización del arco.</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FROMRIGHT</attrlabl>
+				<attalias Sync="TRUE">FROMRIGHT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Número de la placa domiciliaria inicial a la derecha del sentido de la digitalización del arco.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TORIGHT</attrlabl>
+				<attalias Sync="TRUE">TORIGHT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Número de la placa domiciliaria final a la derecha del sentido de la digitalización del arco.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">VERSION</attrlabl>
+				<attalias Sync="TRUE">VERSION</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Campo para controlar la actualización de la malla vial.</attrdef></attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LABEL</attrlabl><attalias Sync="TRUE">LABEL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>PROCALCULO PROSIS S.A.</cntorg>
+					<cntper>Nora Elena Jiménez Gómez</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>direccion de correo</addrtype>
+					<address>Calle 16 No. 41-210 of. 803</address>
+					<city>Medellin</city>
+					<state>Antioquia</state>
+					<country>Colombia</country>
+				</cntaddr>
+				<cntvoice>57 - 4 - 2666657</cntvoice>
+				<cntfax>57 - 4 - 2666411</cntfax>
+				<cntemail>njimenez@prosis.com</cntemail>
+				<hours>8 am - 6 pm</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Con la compra del producto se concede UNA unica licencia exclusiva de uso de este producto. Se proohibe su distribución en medio magnetica y/o digital sin el previo concentimiento de los venderores de la licencia de uso.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<formvern>Standard</formvern>
+					<formspec>ArcView Shapefile</formspec>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<digform>
+				<digtinfo>
+					<formname>Geodatabase</formname>
+					<formvern>ArcGis 8.3</formvern>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<ordering>Pedido exclusivo a la Fabrica de Mapas. No hay informacion adicional disponible.</ordering>
+		</stdorder>
+		<custom>A traves de PROSIS S.A. se hacen las ordenes de producción/compra.</custom>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20041004</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Fabrica de Mapas</cntorg>
+					<cntper>Nora Jiménez</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>direccion de correo</addrtype>
+					<address>Calle 16 41-210 of. 803</address>
+					<city>Medellin</city>
+					<state>Antioquia</state>
+					<country>Colombia</country>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr>
+				<cntvoice>57 4 2666657</cntvoice>
+				<cntfax>57 4 2666411</cntfax>
+				<cntemail>njimenez@prosis.com</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">es</langmeta></metainfo>
+	<Esri><CreaDate>20041228</CreaDate><CreaTime>08345800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20111123</SyncDate><SyncTime>18055100</SyncTime><ModDate>20111123</ModDate><ModTime>18055100</ModTime><MetaID>{45F1A7D0-9A2F-402C-85B1-7A5B471DC487}</MetaID><DataProperties><itemProps><itemName Sync="TRUE">Malla_Vial</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0,000</itemSize><itemLocation><linkage Sync="TRUE">file://\\JULIANGIRALDO\C$\GEOPOLI\MEDELLIN\SHP\Malla_Vial</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_Bogota</geogcsn><projcsn Sync="TRUE">Colombia_Bogota_Zone</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;Colombia_Bogota_Zone&amp;quot;,GEOGCS[&amp;quot;GCS_Bogota&amp;quot;,DATUM[&amp;quot;D_Bogota&amp;quot;,SPHEROID[&amp;quot;International_1924&amp;quot;,6378388.0,297.0]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,1000000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,1000000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-74.08091666666667],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,1.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,4.599047222222222],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,21897]]&lt;/WKT&gt;&lt;XOrigin&gt;-4623400&lt;/XOrigin&gt;&lt;YOrigin&gt;-9511000&lt;/YOrigin&gt;&lt;XYScale&gt;450249651.57241428&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;21897&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20111123" Time="180634">CopyFeatures G:\ArccGis\Medellin\Ciudad_Medellin.mdb\Malla_Vial G:\ArccGis\Medellin\Malla_Vial.shp # 0 0 0</Process></lineage><copyHistory><copy source="C:\GEOPOLI\MEDELLIN\Malla_Vial" dest="\\JULIANGIRALDO\C$\GEOPOLI\MEDELLIN\SHP\Malla_Vial" date="20240321" time="13110300"></copy></copyHistory></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</envirDesc><dataLang><languageCode Sync="TRUE" value="spa" country="COL"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Malla_Vial</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">824514.050024</westBL><eastBL Sync="TRUE">861968.373687</eastBL><northBL Sync="TRUE">1204756.448797</northBL><southBL Sync="TRUE">1163808.180015</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">284.332959</westBL><eastBL Sync="TRUE">284.672305</eastBL><northBL Sync="TRUE">6.449081</northBL><southBL Sync="TRUE">6.078008</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys></dataIdInfo><mdLang><languageCode Sync="TRUE" value="spa"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\ATREJOS\Medellin\Ciudad_Medellin.mdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">Personal GeoDatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0,000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="21897">Colombia_Bogota_Zone</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Medellin_areamet_malla_vial"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="002"></GeoObjTypCd><geoObjCnt Sync="TRUE">0</geoObjCnt></geoObjTyp><geoObjCnt Sync="TRUE">44605</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20111123</mdDateSt></metadata>
